@@ -1,4 +1,4 @@
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 550px) {
     * {
         width: auto;
     }
@@ -39,6 +39,7 @@
     #container1 {
         grid-template-columns: auto;
         grid-template-rows: 1fr 1.25fr;
+        margin-top: 0;
     }
 
     .grid1 img {
@@ -221,7 +222,7 @@
     }
 }
 
-@media only screen and (max-width: 800px)and (min-width : 480px) {
+@media only screen and (max-width: 800px)and (min-width : 549px) {
     * {
         width: auto;
     }
