@@ -1,22 +1,249 @@
-@media only screen and (max-width: 800px){
-    *{
+@media only screen and (max-width: 350px) {
+    * {
         width: auto;
     }
-    #container1 #name {
-        padding-top: 0px;
+
+    #navbar {
+        flex-direction: column;
+        padding-top: 1.5rem;
     }
+
+    #navbar #nav-part1 {
+        align-items: center;
+        padding-top: 1.5rem;
+        gap: 0;
+    }
+
+    #navbar h1 {
+        margin-left: 1.5rem;
+    }
+
+    #name h1 {
+        font-size: 7.5rem;
+    }
+
+    #container1 #name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 0rem;
+        padding-left: 0;
+    }
+
     #name #info {
-        padding-top: 16px;
+        padding-top: 1.6rem;
         font-weight: 500;
     }
-    #name h1 {
-        font-size: 84px;
-    }
-    #container1{
+
+    #container1 {
         grid-template-columns: auto;
         grid-template-rows: 1fr 1.25fr;
-        grid-row-gap: 20px;
     }
+
+    .grid1 img {
+        object-fit: cover;
+        height: auto;
+        display: flex;
+        width: 100%;
+        background-color: transparent;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #scroll {
+        bottom: -3rem;
+        left: 10rem;
+    }
+
+    #section2 {
+        background-color: #191B1F;
+        width: 100%;
+        padding: 10rem 0.9rem 8rem 0.9rem;
+    }
+
+    #container2 {
+        flex-direction: column;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    #container2 #image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #container2 img {
+        width: 100%;
+    }
+
+    #container2 #info1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    #container3 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+        margin-top: 2rem;
+        padding-bottom: 5.3rem;
+        border-bottom: 0.1rem solid gainsboro;
+    }
+
+    #container3 #info2 {
+        height: 100%;
+        width: 100%;
+        padding: 0 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #container3 #image1 {
+        height: 100%;
+        width: 100%;
+        padding-top: 5.2rem;
+    }
+
+    #container3 span {
+        color: red;
+        font-size: 3.4rem;
+        padding-left: 2rem;
+    }
+
+    .cards .glass {
+        position: relative;
+        width: 24rem;
+        height: 14rem;
+        margin: 0px -1.45rem;
+    }
+
+    #container4 {
+        height: auto;
+        padding: 1rem;
+        margin-top: 2rem;
+        padding-top: 2.6rem;
+        display: grid;
+        grid-template-rows: 1.25fr 1.5fr;
+        grid-column-gap: 6rem;
+        grid-template-columns: auto;
+    }
+
+    #container4 #info4 {
+        padding-top: 0;
+        font-size: 1.5rem;
+    }
+
+    #section3 {
+        padding: 3rem 0.9rem 0rem 0.9rem;
+    }
+
+    #container5 {
+        height: auto;
+    }
+
+    #container5 #info5 {
+        font-size: 0.9rem;
+        font-weight: 100;
+    }
+
+    .proinfo24 h3 {
+        padding-top: 6.5rem;
+    }
+
+    .project {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project2,
+    #project4 {
+        flex-flow: column-reverse;
+    }
+
+    .proimg {
+        padding-top: 1rem;
+    }
+
+    .proinfo13 {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .proinfo13 h3 {
+        padding-top: 5.6rem;
+    }
+
+    #connect1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #connect2 {
+        margin-left: -0.1rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        height: auto;
+    }
+
+    #container2 #resumeimg {
+        height: 7rem;
+        width: 7rem;
+        border-radius: 50%;
+        top: -16rem;
+        left: -7rem;
+    }
+    #container2 #info1 #about2 {
+        padding-top: 0rem;
+    }
+    .cards {
+        width: 94%;
+    }
+
+    #solidimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 800px)and (min-width : 480px) {
+    * {
+        width: auto;
+    }
+
+    .cards .glass {
+        margin: 0 -4.45rem;
+    }
+
+    #container1 #name {
+        padding-top: 0rem;
+    }
+
+    #name #info {
+        padding-top: 1.6rem;
+        font-weight: 500;
+    }
+
+    #container1 {
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1.25fr;
+    }
+
     .grid1 img {
         object-fit: cover;
         height: 75%;
@@ -26,120 +253,129 @@
         align-content: center;
         justify-content: center;
     }
+
     #scroll {
-        height: 120px;
-        width: 120px;
-        position: absolute;
-        bottom: -67vw;
-        left: 43vw;
+        bottom: -4rem;
+        left: 34rem;
     }
+
     #container2 {
-        width: 100%;
-        max-width: 1120px;
         flex-direction: column;
         height: auto;
         display: flex;
         justify-content: space-between;
-        padding: 10px;
+        padding: 1rem;
     }
-    #container2 #image , #container3 #image1{
+
+    #container2 #image,
+    #container3 #image1 {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    #container2 #info1 , #container3 #info2 {
+
+    #container2 #info1,
+    #container3 #info2 {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
+
     #container3 {
-        width: 100%;
-        max-width: 1120px;
         height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 10px;
-        margin-top: 20px;
-        padding-bottom: 53px;
-        border-bottom: 1px solid gainsboro;
+        padding: 1rem;
+        margin-top: 2rem;
+        padding-bottom: 5.3rem;
+        border-bottom: 0.1rem solid gainsboro;
     }
+
     #container3 #info2 {
         height: 100%;
         width: 100%;
-        padding: 50px 0px 0px 61px;
-        font-size: 32px;
+        padding: 5rem 0rem 0rem 6.1rem;
         font-weight: 600;
         flex-direction: row;
     }
+
     #container3 #image1 {
         height: 100%;
         width: 100%;
-        padding-top: 52px;
+        padding-top: 5.2rem;
     }
+
     #container3 span {
         color: red;
-        font-size: 34px;
-        padding-left: 20px;
+        font-size: 3.4rem;
+        padding-left: 2rem;
     }
+
     #container4 {
-        width: 100%;
-        max-width: 1120px;
         height: auto;
-        padding: 10px;
-        margin-top: 20px;
-        padding-top: 26px;
+        padding: 1rem;
+        margin-top: 2rem;
+        padding-top: 2.6rem;
         display: grid;
         grid-template-rows: 1.25fr 1.5fr;
-        grid-column-gap: 60px;
+        grid-column-gap: 6rem;
         grid-template-columns: auto;
     }
-    #container4 #info4{
+
+    #container4 #info4 {
         padding-top: 0;
+        font-size: 1.5rem;
     }
-    #container5{
+
+    #container5 {
         height: auto;
     }
- 
+
     .project {
-        width: 100%;
-        max-width: 1120px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
         display: flex;
         flex-direction: column;
     }
-    #project2, #project4{
+
+    #project2,
+    #project4 {
         flex-flow: column-reverse;
     }
-    .proimg{
-        padding-top: 10px;
+
+    .proimg {
+        padding-top: 1rem;
     }
+
     .proinfo13 {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
     }
+
     .proinfo13 h3 {
-        padding-top: 56px;
-        font-size: 15px;
+        padding-top: 5.6rem;
     }
+
     #connect2 {
-        margin-left: 199px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        margin-left: 19.9rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
         height: auto;
     }
+
     #container2 #resumeimg {
-        height: 120px;
-        width: 120px;
+        height: 12rem;
+        width: 12rem;
         border-radius: 50%;
         position: absolute;
-        top: 202vw;
+        top: 197vw;
         left: 11vw;
     }
-    #solidimg{
+
+    #solidimg {
         display: flex;
         align-items: center;
         justify-content: center;
