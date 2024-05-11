@@ -89,7 +89,7 @@ body {
 
 #navbar button:hover:before {
     background-color: #fff;
-    width: 0.3rem;
+    width: 9rem;
 }
 
 /* SECTION 1 */
@@ -273,7 +273,7 @@ body {
     align-items: center;
     transition: 0.5s;
     border-radius: 1rem;
-    margin: 0 -0.45rem;
+    margin: 0 -3.45rem;
     backdrop-filter: blur(1rem);
     transform: rotate(calc(var(--r) * 1deg));
 }
