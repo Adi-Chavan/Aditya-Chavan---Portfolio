@@ -1,4 +1,4 @@
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 655px) {
     * {
         width: auto;
     }
@@ -54,8 +54,7 @@
     }
 
     #scroll {
-        bottom: -3rem;
-        left: 10rem;
+        margin-left: 22rem;
     }
 
     #section2 {
@@ -206,8 +205,8 @@
         height: 7rem;
         width: 7rem;
         border-radius: 50%;
-        top: -50rem;
-        left: -10rem;
+        margin-left: -5rem;
+        margin-top: 26rem
     }
     #container2 #info1 #about2 {
         padding-top: 0rem;
@@ -223,7 +222,7 @@
     }
 }
 
-@media only screen and (max-width: 800px)and (min-width : 549px) {
+@media only screen and (max-width: 999px)and (min-width : 655px) {
     * {
         width: auto;
     }
@@ -257,8 +256,7 @@
     }
 
     #scroll {
-        bottom: -4rem;
-        left: 34rem;
+        margin-left: 38rem;
     }
 
     #container2 {
@@ -369,12 +367,11 @@
     }
 
     #container2 #resumeimg {
-        height: 12rem;
-        width: 12rem;
+        height: 10rem;
+        width: 10rem;
         border-radius: 50%;
-        position: absolute;
-        top: 197vw;
-        left: 11vw;
+        margin-left: -5rem;
+        margin-top: 26rem
     }
 
     #solidimg {

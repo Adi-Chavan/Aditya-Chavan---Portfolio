@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="resposivecss.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <title>Aditya Chavan - Portfolio</title>
 </head>
 
 <body>
+
     <div id="navbar">
         <a href="">
             <h1>ADITYA</h1>
@@ -37,17 +39,24 @@
         </div>
     </div>
     <div id="scroll">
-        <img src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/661fd3577db36e09a768d2e2_Group%201000015110.png" alt="">
-        <img  id="arrowimg" src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65f9ad81fe4a6af0c9fc3e5a_Vector3.png" alt="">
+        <img id="outer"
+            src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/661fd3577db36e09a768d2e2_Group%201000015110.png"
+            alt="">
+        <img id="arrowimg"
+            src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65f9ad81fe4a6af0c9fc3e5a_Vector3.png"
+            alt="">
     </div>
     <div id="section2">
         <div id="container2">
             <div id="image">
                 <img src="Model2.jpg" alt="">
+                <div id="resumeimg">
+                    <a href="#"><img src="resumeimg.png" alt=""></a>
+                </div>
             </div>
             <div id="info1">
-                <div id="about1">ABOUT</div>
-                <div id="about2">
+                <div id="about1" class="About">ABOUT</div>
+                <div id="about2" class="About">
                     My name is Aditya. I'm a UX/UI designer, available for work, new projects, collaborations, and
                     freelance opportunities. I also have experience as a graphic designer, creating digital and branding
                     design.<br><br>
@@ -55,11 +64,8 @@
                     I'm excited about the opportunity to collaborate, innovate, and make a meaningful impact through
                     design. Let's connect and create something extraordinary together.
                 </div>
-                <div id="about3">
+                <div id="about3" class="About">
                     <a href="#">View More <i class="ri-arrow-right-up-line"></i></a>
-                </div>
-                <div id="resumeimg">
-                    <a href="#"><img src="resumeimg.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -422,14 +428,13 @@
                         </svg>
                     </div>
                 </div>
-
             </div>
         </div>
         <div id="container4">
             <div id="info3">
-                <h2>Experties</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur praesentium doloribus perferendis
-                    ipsam adipisci excepturi necessitatibus natus ab repellendus voluptatum!</p>
+                <span><h2>Experties</h2></span>
+                <span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur praesentium doloribus perferendis
+                    ipsam adipisci excepturi necessitatibus natus ab repellendus voluptatum!</p></span>
             </div>
             <div id="info4">
                 <h3><i class="ri-arrow-right-up-line"></i><span>Website Design / UX/UI</span></h3>
@@ -442,7 +447,8 @@
     <div id="section3">
         <div id="container5">
             <div id="arrow">
-                <img src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65f9ad81fe4a6af0c9fc3e5a_Vector3.png"  alt="">
+                <img src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65f9ad81fe4a6af0c9fc3e5a_Vector3.png"
+                    alt="">
             </div>
             <div id="info5">
                 <h1>I strive to create scalable, intuitive designs that are as pleasing to the eye as they are
@@ -451,7 +457,7 @@
         </div>
         <div class="projects">
             <div class="project" id="project1">
-                <div class="proinfo13">
+                <div class="proinfo13" id="proinfo1">
                     <h1>HAFY</h1>
                     <p>The mobile app allows you to track statistics of your group expenses and helps to avoid
                         unnecessary money transfers.</p>
@@ -462,15 +468,19 @@
                     </div>
                     <h3><a href="#">VIEW PROJECT <i class="ri-arrow-right-up-line"></i></a></h3>
                 </div>
-                <div class="proimg">
-                   <a href="#"><img src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65fc2c01735eee2e1de4c14d_1%20501.png" alt=""></a>
+                <div class="proimg" id="proimg1">
+                    <a href="#"><img
+                            src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65fc2c01735eee2e1de4c14d_1%20501.png"
+                            alt=""></a>
                 </div>
             </div>
             <div class="project" id="project2">
-                <div class="proimg">
-                   <a href="#"><img src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65fc2c01735eee2e1de4c14d_1%20501.png" alt=""></a>
+                <div class="proimg" id="proimg2">
+                    <a href="#"><img
+                            src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65fc2c01735eee2e1de4c14d_1%20501.png"
+                            alt=""></a>
                 </div>
-                <div class="proinfo24">
+                <div class="proinfo24" id="proinfo2">
                     <h1>HAFY</h1>
                     <p>The mobile app allows you to track statistics of your group expenses and helps to avoid
                         unnecessary money transfers.</p>
@@ -483,7 +493,7 @@
                 </div>
             </div>
             <div class="project" id="project3">
-                <div class="proinfo13">
+                <div class="proinfo13" id="proinfo3">
                     <h1>HAFY</h1>
                     <p>The mobile app allows you to track statistics of your group expenses and helps to avoid
                         unnecessary money transfers.</p>
@@ -494,16 +504,20 @@
                     </div>
                     <h3><a href="#">VIEW PROJECT <i class="ri-arrow-right-up-line"></i></a></h3>
                 </div>
-                <div class="proimg">
-                    <a href="#"><img src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65fc2c01735eee2e1de4c14d_1%20501.png" alt=""></a>
+                <div class="proimg" id="proimg3">
+                    <a href="#"><img
+                            src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65fc2c01735eee2e1de4c14d_1%20501.png"
+                            alt=""></a>
                 </div>
-                
+
             </div>
             <div class="project" id="project4">
-                <div class="proimg">
-                   <a href="#"><img src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65fc2c01735eee2e1de4c14d_1%20501.png" alt=""></a>
+                <div class="proimg" id="proimg4">
+                    <a href="#"><img
+                            src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65fc2c01735eee2e1de4c14d_1%20501.png"
+                            alt=""></a>
                 </div>
-                <div class="proinfo24">
+                <div class="proinfo24" id="proinfo4">
                     <h1>HAFY</h1>
                     <p>The mobile app allows you to track statistics of your group expenses and helps to avoid
                         unnecessary money transfers.</p>
@@ -514,30 +528,45 @@
                     </div>
                     <h3><a href="#">VIEW PROJECT <i class="ri-arrow-right-up-line"></i></a></h3>
                 </div>
-                
+
             </div>
 
         </div>
-        <div id="connect1">LET'S CONNECT</div>
-        <div id="connect2">
-            <div class="con-elem">
-                  <h1><a href="adi.chavan74@gmail.com">EMAIL</a></h1>
-                  <i class="ri-arrow-right-up-line"></i>   
-            </div>
-            <div class="con-elem">
-                  <h1><a href="www.linkedin.com/in/aditya-chavan-b718a8288">LINKED IN</a></h1>
-                  <i class="ri-arrow-right-up-line"></i>
-            </div>
-            <div class="con-elem" id="lastelem">
-                <h1><a href="#">INSTAGRAM</a></h1>
-                <i class="ri-arrow-right-up-line"></i>
+        <div id="connect">
+            <div id="connect1">LET'S CONNECT</div>
+            <div id="connect2">
+                <div class="con-elem">
+                    <h1><a href="adi.chavan74@gmail.com">EMAIL</a></h1>
+                    <i class="ri-arrow-right-up-line"></i>
+                </div>
+                <div class="con-elem">
+                    <h1><a href="www.linkedin.com/in/aditya-chavan-b718a8288">LINKED IN</a></h1>
+                    <i class="ri-arrow-right-up-line"></i>
+                </div>
+                <div class="con-elem" id="lastelem">
+                    <h1><a href="#">INSTAGRAM</a></h1>
+                    <i class="ri-arrow-right-up-line"></i>
+                </div>
             </div>
         </div>
         <div id="arrow-bottom">
-            <a href="#navbar"><img src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65fc406ccc407298fd6e14b2_arrow%20copy.png" alt=""></a>
+            <a href="#navbar"><img
+                    src="https://assets-global.website-files.com/65edf677fa8a43dd630bb971/65fc406ccc407298fd6e14b2_arrow%20copy.png"
+                    alt=""></a>
         </div>
     </div>
 
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
