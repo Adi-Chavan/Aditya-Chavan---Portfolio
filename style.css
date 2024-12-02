@@ -107,7 +107,7 @@ body {
     width: 100%;
     max-width: 114rem;
     padding: 4rem;
-    margin-top: 8rem;
+    margin-top: 4rem;
     grid-column-gap: 2.9rem;
     grid-template-columns: 1.5fr 1.25fr;
     padding-left: 2rem;
@@ -145,7 +145,7 @@ body {
     height: 10rem;
     width: 10rem;
     position: relative;
-    margin-left: 50%;
+    margin-left: 45%;
     top: 2rem;
 }
 #scroll img{
