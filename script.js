@@ -1,21 +1,13 @@
 
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('#main'),
-//     smooth: true
-// });
 
-
-
-
-
-
-
-
-gsap.to("#scroll #outer", {
-    rotate: 721,
-    repeat: -1,
-    duration: 40
-})
+function Scroll(){
+    gsap.to("#scroll #outer", {
+        rotate: 721,
+        repeat: -1,
+        duration: 30
+    })
+}
+Scroll()
 
 
 function Page1Animation() {
